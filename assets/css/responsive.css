@@ -1,0 +1,132 @@
+@media only screen and (max-width: 1024px) {
+	.site-nav {
+		margin-bottom: -120px;
+	}
+
+	.site-nav nav {
+		padding: 0px;
+	}
+
+	.site-nav .navbar-brand img {
+		max-width: 160px;
+	}
+
+	.site-nav .navbar-nav {
+		padding-left: 10px;
+		background-color: #eee;
+	}
+
+	.xs-banner-area .xs-banner-content h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.xs-banner-area .xs-banner-content .btn-fill, 
+	.xs-banner-area .xs-banner-content .btn-border {
+		padding: 10px 30px;
+	}
+
+	.xs-banner-area {
+		padding-top: 150px;
+	}
+
+	.xs-banner-image img {
+		max-width: 100%;
+	}
+	.xs-banner-image {
+		margin-top: 30px;
+	}
+	.xs-banner-info-box-1 {
+		padding: 0 15px;
+		left: 15%;
+		top: 5%;
+	}
+	.xs-banner-image .box-icon {
+		margin-right: 7px;
+	}
+
+	.xs-banner-image .box-content h4 {
+		padding-top: 5px;
+	}
+	.xs-banner-image .box-content {
+		padding-bottom: 5px;
+	}
+
+	.xs-banner-info-box-2 {
+		top: 45%;
+		left: 13%;
+	}
+	.xs-banner-info-box-3 {
+    top: 73%;
+    right: -50px;
+}
+
+.xs-client-area {
+	margin-top: 30px;
+}
+
+.inner-title-wrapper h2 {
+	font-size: 24px;
+	line-height: 32px;
+}
+.inner-title-wrapper h4:before {
+	left: 22%;
+}
+.inner-title-wrapper h4:after {
+	right: 17%;
+}
+
+.xs-about-us {
+	padding: 50px 0;
+}
+.xs-newletter{
+	padding: 50px 0px;
+	margin-bottom: -130px;
+}
+.xs-newbox {
+	padding: 30px;
+}
+.xs-newbox h4 {
+	font-size: 24px;
+	line-height: 32px;
+}
+.xs-newbox p {
+	font-size: 14px;
+	line-height: 19px;
+}
+.newsletter-form .input-group-btn {
+	right: 15px;
+}
+.xs-footer {
+	text-align: center;
+}
+.footer-contact, .footer-widget {
+	padding-bottom: 20px;
+}
+.footer-address ul.address-social-media {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.footer-address ul.address-location li a i {
+   margin-right: 10px;
+   float: none;
+}
+
+.xs-footer .copyright-footer ul {
+   display: none !important;
+} 
+
+.xs-service-area .inner-title-wrapper h4:before {
+    left: 35%;
+    }
+    .xs-service-area .inner-title-wrapper h4:after{
+    	right: 30%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+	.site-nav .navbar-expand-md .navbar-collapse {
+		justify-content: flex-end;
+	}
+}
